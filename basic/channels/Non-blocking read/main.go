@@ -12,7 +12,8 @@ func main() {
 		myChan <- "Message!"
 	}()
 
-	go Read(myChan)
+	// go Read(myChan) // не самый лучший вариант так как идет бесконечное итерирование по селекту
+	go ReadWithRange(myChan)
 
 	time.Sleep(2 * time.Second)
 

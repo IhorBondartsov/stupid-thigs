@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f1ece9a-5060-445c-bea6-93f8bc89847a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic/defer/ex1_defer_in_func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/defer/ex2_closure.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/defer/ex3_simple_defer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/defer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/iota/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms/algorithms.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/channels/channels.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC/gRPC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gRPC/proto example/simple-service.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/stupid-things.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/stupid-things.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/channels/Non-blocking read/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/channels/Non-blocking read/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/defer/ex1_defer_in_func.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/defer/ex1_defer_in_func.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/defer/ex2_closure.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/defer/ex2_closure.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/defer/ex3_simple_defer.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/defer/ex3_simple_defer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/defer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/defer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/slice/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slice/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,101 +26,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/slice/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gRPC/gRPC.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="218">
+                <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/defer/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/defer/ex1_defer_in_func.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/defer/ex3_simple_defer.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/channels/close channel/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-504">
-              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/defer/ex2_closure.go">
+        <entry file="file://$PROJECT_DIR$/gRPC/proto example/simple-service.proto">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="52">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/iota/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic/channels/Non-blocking read/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/бльо.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-290">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-              <folding>
-                <element signature="e#16#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gorm with posgre/cmd/tablemodels.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <entry file="file://$PROJECT_DIR$/algorithms/algorithms.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="234">
+                <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -133,9 +73,16 @@
       <find>Create</find>
     </findStrings>
   </component>
-  <component name="GOROOT" path="$PROJECT_DIR$/../../../../../../go" />
+  <component name="GOROOT" path="$PROJECT_DIR$/../../../../../go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -157,18 +104,22 @@
         <option value="$PROJECT_DIR$/basic/initalization/pkg2/cmd/main.go" />
         <option value="$PROJECT_DIR$/basic/initalization/pkg1/cmd/main.go" />
         <option value="$PROJECT_DIR$/basic/initalization/main.go" />
-        <option value="$PROJECT_DIR$/basic/slice/main.go" />
         <option value="$PROJECT_DIR$/basic/work with unsafe/main.go" />
         <option value="$PROJECT_DIR$/basic/channels/Non-blocking record.go" />
         <option value="$PROJECT_DIR$/basic/channels/Non-blocking record/main.go" />
-        <option value="$PROJECT_DIR$/basic/channels/Non-blocking read/main.go" />
         <option value="$PROJECT_DIR$/basic/implemen unmarshal and marshal/main.go" />
-        <option value="$PROJECT_DIR$/basic/defer/ex2_closure.go" />
         <option value="$PROJECT_DIR$/basic/iota/main.go" />
         <option value="$PROJECT_DIR$/basic/defer/ex1_simple_defer.go" />
-        <option value="$PROJECT_DIR$/basic/defer/main.go" />
-        <option value="$PROJECT_DIR$/basic/defer/ex3_simple_defer.go" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/бльо.go" />
+        <option value="$PROJECT_DIR$/basic/slice/main.go" />
+        <option value="$PROJECT_DIR$/basic/defer/ex3_simple_defer.go" />
+        <option value="$PROJECT_DIR$/basic/defer/ex1_defer_in_func.go" />
+        <option value="$PROJECT_DIR$/basic/defer/ex2_closure.go" />
+        <option value="$PROJECT_DIR$/basic/defer/main.go" />
+        <option value="$PROJECT_DIR$/basic/channels/Non-blocking read/main.go" />
+        <option value="$PROJECT_DIR$/algorithms/algorithms.md" />
+        <option value="$PROJECT_DIR$/gRPC/proto example/simple-service.proto" />
+        <option value="$PROJECT_DIR$/gRPC/gRPC.md" />
       </list>
     </option>
   </component>
@@ -193,64 +144,18 @@
             <path>
               <item name="stupid-things" type="b2602c69:ProjectViewProjectNode" />
               <item name="stupid-things" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stupid-things" type="b2602c69:ProjectViewProjectNode" />
               <item name="stupid-things" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="channels" type="462c0819:PsiDirectoryNode" />
+              <item name="gRPC" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="stupid-things" type="b2602c69:ProjectViewProjectNode" />
               <item name="stupid-things" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="channels" type="462c0819:PsiDirectoryNode" />
-              <item name="close channel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stupid-things" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stupid-things" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="channels" type="462c0819:PsiDirectoryNode" />
-              <item name="Non-blocking read" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stupid-things" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stupid-things" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="defer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stupid-things" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stupid-things" type="462c0819:PsiDirectoryNode" />
-              <item name="gorm with posgre" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stupid-things" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stupid-things" type="462c0819:PsiDirectoryNode" />
-              <item name="gorm with posgre" type="462c0819:PsiDirectoryNode" />
-              <item name="cmd" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stupid-things" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stupid-things" type="462c0819:PsiDirectoryNode" />
-              <item name="useful docker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stupid-things" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stupid-things" type="462c0819:PsiDirectoryNode" />
-              <item name="useful docker" type="462c0819:PsiDirectoryNode" />
-              <item name="simple docker for go" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="stupid-things" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="stupid-things" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="gRPC" type="462c0819:PsiDirectoryNode" />
+              <item name="proto example" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,13 +168,17 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/basic/initalization/pkg1/cmd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/basic/defer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -298,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build бльо.go">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
     <configuration name="go build бльо.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="stupid-things" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -306,6 +215,15 @@
       <filePath value="$APPLICATION_CONFIG_DIR$/scratches/бльо.go" />
       <package value="github.com/IhorBondartsov/stupid-things" />
       <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/IhorBondartsov/stupid-things/basic/defer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="stupid-things" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/basic/defer/main.go|$PROJECT_DIR$/basic/defer/main.go" />
+      <package value="github.com/IhorBondartsov/stupid-things" />
+      <directory value="$PROJECT_DIR$/basic/defer" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -326,16 +244,7 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="stupid-things" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/basic/implemen unmarshal and marshal/main.go" />
-      <package value="github.com/IhorBondartsov/stupid-things" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (5)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="stupid-things" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
@@ -344,13 +253,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build main.go (1)" />
+      <item itemvalue="Go Build.go build github.com/IhorBondartsov/stupid-things/basic/defer" />
+      <item itemvalue="Go Build.go build бльо.go" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build main.go (2)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build бльо.go" />
-        <item itemvalue="Go Build.go build main.go (5)" />
-        <item itemvalue="Go Build.go build main.go (4)" />
         <item itemvalue="Go Build.go build main.go (2)" />
+        <item itemvalue="Go Build.go build github.com/IhorBondartsov/stupid-things/basic/defer" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build бльо.go" />
       </list>
     </recent_temporary>
   </component>
@@ -364,23 +280,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1533" height="875" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25483692" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12508406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3378661" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32914925" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33751744" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32983193" />
-      <window_info anchor="bottom" id="Docker" order="7" sideWeight="0.4997236" weight="0.3294979" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" sideWeight="0.4997236" weight="0.3294979" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4997236" weight="0.3294979" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4991708" weight="0.34414226" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4997236" weight="0.32914925" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4991708" visible="true" weight="0.28870293" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50082916" side_tool="true" weight="0.33891213" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -394,34 +309,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../pkg/errors/errors.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="268" column="5" selection-start-line="268" selection-start-column="5" selection-end-line="268" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../capnm/sysinfo/sysinfo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1300">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../shirou/gopsutil/mem/mem.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../shirou/gopsutil/mem/mem_linux.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../pkg/errors/errors.go" />
+    <entry file="file://$PROJECT_DIR$/../../capnm/sysinfo/sysinfo.go" />
+    <entry file="file://$PROJECT_DIR$/../../shirou/gopsutil/mem/mem.go" />
+    <entry file="file://$PROJECT_DIR$/../../shirou/gopsutil/mem/mem_linux.go" />
     <entry file="file://$PROJECT_DIR$/useful docker/for generating grpc/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -432,13 +323,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../../../go/src/runtime/debug.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1352">
-          <caret line="55" column="70" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/go/src/runtime/debug.go" />
     <entry file="file://$PROJECT_DIR$/useful docker/Secure docker file for go module/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -453,21 +338,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/interesting facts about go.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/test.go" />
     <entry file="file://$PROJECT_DIR$/different tools/tooling for test.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -492,13 +363,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../jinzhu/gorm/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="448" column="47" lean-forward="true" selection-start-line="448" selection-start-column="47" selection-end-line="448" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../jinzhu/gorm/main.go" />
     <entry file="file://$PROJECT_DIR$/gorm with posgre/cmd/models.go" />
     <entry file="file://$PROJECT_DIR$/basic/initalization/pkg1/main.go" />
     <entry file="file://$PROJECT_DIR$/basic/initalization/init.png">
@@ -547,13 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gorm with posgre/cmd/tablemodels.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basic/work with unsafe/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-842">
@@ -564,23 +422,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/implemen unmarshal and marshal/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2184">
-          <caret line="84" column="38" lean-forward="true" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
-          <folding>
-            <element signature="e#14#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/slice/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/бльо.go" />
     <entry file="file://$PROJECT_DIR$/basic/iota/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -588,61 +430,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gorm with posgre/cmd/tablemodels.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/slice/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/interesting facts about go.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/defer/ex3_simple_defer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/basic/defer/ex2_closure.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="156">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/defer/ex1_defer_in_func.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" selection-start-line="5" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="182">
+          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/defer/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/defer/ex3_simple_defer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/channels/close channel/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-453">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic/channels/Non-blocking read/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state relative-caret-position="208">
+          <caret line="14" column="98" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
           <folding>
             <element signature="e#14#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/бльо.go">
+    <entry file="file://$PROJECT_DIR$/basic/channels/channels.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/implemen unmarshal and marshal/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-          <folding>
-            <element signature="e#16#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1062">
+          <caret line="84" column="38" lean-forward="true" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms/algorithms.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="234">
+            <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gRPC/proto example/simple-service.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gRPC/gRPC.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="218">
+            <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
