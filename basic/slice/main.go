@@ -32,6 +32,7 @@ func main() {
 
 	fmt.Println(arr == arr) // true
 	//fmt.Println(slice2 == slice2) // Doesnt work compile error
+
 }
 
 func ChangeSlice(slice []int){
