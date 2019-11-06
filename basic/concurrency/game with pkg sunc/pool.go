@@ -5,6 +5,12 @@ import (
 	"sync"
 )
 
+//sync.Pool [1] comes really handy when one wants to reduce the number of allocations happening during the course of a
+// functionality written in Golang. A Pool is a set of temporary objects that may be individually saved and retrieved.
+// fasthttp [2], zerolog [3] are couple of those most popuplar open source Golang libraries which uses sync.Pool
+// at the core of their implementation.
+
+
 // Pool for our struct A
 var pool *sync.Pool
 
