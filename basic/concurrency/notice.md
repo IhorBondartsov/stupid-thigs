@@ -26,5 +26,20 @@ case <-ch2:
 - совместно используемая переменная
 - горутины совместно ждут результато выполнения друг друга
 
+##### Канал в канале
+Красивое использование каналов для того что бы синхронизировать работу между ними. или с его помощью сделать подобие мьютекса.
 
+```
+type Message struct {
+    Message string
+    Wait    chan bool
+}
+
+messageChannel := make (chan Message)
+
+func sendMessage(msg1 Message){
+    messageChannel <- msg1
+    msg1.Wait <- true
+}
+```
 
