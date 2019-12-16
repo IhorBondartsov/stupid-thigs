@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f1ece9a-5060-445c-bea6-93f8bc89847a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/little proj/static server/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little proj/static server/static/html/index.html" afterDir="false" />
+    <list default="true" id="f89e1de3-440c-4d34-9ddf-b8a914d235de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/little-proj/data-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/data-service/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/data-service/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/data-service/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/data-service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/data-service/transport/dataservice.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/static-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/static-service/clients/data-service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/static-service/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/static-service/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/static-service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/static-service/static/img/www.GetBg.net_Anime_Parting_anime_characters_Gates_Stein_111256_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-proj/static-service/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little proj/static server/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/little proj/static server/static/html/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,15 +28,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="HTML File" />
+        <option value="Go File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Create</find>
-    </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
@@ -45,29 +54,30 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../erkins/awsdeploy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/little-proj/static-service/vendor/github.com/IhorBondartsov/stupid-things/little-proj/data-service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Rainbow Brackets" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/little proj" />
-      <recent name="$PROJECT_DIR$/basic/initalization/pkg3/cmd" />
-      <recent name="$PROJECT_DIR$/basic/initalization/pkg2/cmd" />
-      <recent name="$PROJECT_DIR$/basic/initalization" />
-      <recent name="$PROJECT_DIR$/gorm with posgre" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/little-proj/data-service" />
+      <recent name="$PROJECT_DIR$/little-proj/static-service" />
       <recent name="$PROJECT_DIR$/basic/initalization/pkg1/cmd" />
       <recent name="$PROJECT_DIR$/basic/initalization/pkg1" />
       <recent name="$PROJECT_DIR$/basic/initalization/pkg2" />
-      <recent name="$PROJECT_DIR$/basic/initalization/pkg3" />
-      <recent name="$PROJECT_DIR$/basic" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/little-proj/data-service/transport" />
+      <recent name="$PROJECT_DIR$/little-proj/data-service" />
+      <recent name="$PROJECT_DIR$/little proj/static server/static" />
+      <recent name="$PROJECT_DIR$/little proj" />
+      <recent name="$PROJECT_DIR$/basic/initalization/pkg3/cmd" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
+  <component name="RunManager" selected="Docker.static-service/Dockerfile">
     <configuration name="go build бльо.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="stupid-things" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -77,21 +87,12 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/IhorBondartsov/stupid-things/little proj/static server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="stupid-things" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/basic/channels/Non-blocking read/main.go" />
-      <package value="github.com/IhorBondartsov/stupid-things" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="stupid-things" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/basic/implemen unmarshal and marshal/main.go" />
-      <package value="github.com/IhorBondartsov/stupid-things" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/little proj/static server/main.go" />
+      <package value="github.com/IhorBondartsov/stupid-things/little proj/static server" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -113,13 +114,27 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="static-service/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="little-proj/static-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.static-service/Dockerfile" />
+        <item itemvalue="Go Build.go build github.com/IhorBondartsov/stupid-things/little proj/static server" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build бльо.go" />
         <item itemvalue="Go Build.go build main.go (5)" />
-        <item itemvalue="Go Build.go build main.go (4)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -148,21 +163,57 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="588" y="214" width="800" height="677" key="#Go_Modules_(vgo)" timestamp="1576440331276">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="800" height="677" key="#Go_Modules_(vgo)/67.27.1853.1053@67.27.1853.1053" timestamp="1576440331276" />
+    <state x="663" y="344" width="651" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576364093252">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="663" y="344" width="651" height="416" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1576364093252" />
+    <state x="676" y="280" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576364272884">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="676" y="280" width="624" height="544" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1576364272884" />
+    <state x="632" y="93" width="713" height="918" key="#static-service/Dockerfile" timestamp="1576440995867">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="632" y="93" width="713" height="918" key="#static-service/Dockerfile/67.27.1853.1053@67.27.1853.1053" timestamp="1576440995867" />
     <state x="810" y="321" key="FileChooserDialogImpl" timestamp="1576191135653">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="810" y="321" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1576191135653" />
-    <state x="482" y="188" key="SettingsEditor" timestamp="1576191138385">
+    <state width="902" height="252" key="GridCell.Tab.0.bottom" timestamp="1576363891854">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="482" y="188" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1576191138385" />
+    <state width="902" height="252" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1576363891854" />
+    <state width="902" height="252" key="GridCell.Tab.0.center" timestamp="1576363891853">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="902" height="252" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1576363891853" />
+    <state width="902" height="252" key="GridCell.Tab.0.left" timestamp="1576363891853">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="902" height="252" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1576363891853" />
+    <state width="902" height="252" key="GridCell.Tab.0.right" timestamp="1576363891854">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="902" height="252" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1576363891854" />
+    <state x="773" y="200" key="SettingsEditor" timestamp="1576449441823">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="773" y="200" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1576449441823" />
+    <state x="602" y="132" width="782" height="840" key="find.popup" timestamp="1576363391566">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="602" y="132" width="782" height="840" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1576363391566" />
     <state x="511" y="156" width="818" height="661" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1576191137443">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="511" y="156" width="818" height="661" key="org.intellij.images.editor.actions.BackgroundImageDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1576191137443" />
-    <state x="656" y="257" key="search.everywhere.popup" timestamp="1576194399153">
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1576445314527">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="656" y="257" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1576194399153" />
+    <state x="656" y="257" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1576445314527" />
   </component>
 </project>
