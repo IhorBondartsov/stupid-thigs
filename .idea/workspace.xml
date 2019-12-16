@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f89e1de3-440c-4d34-9ddf-b8a914d235de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/little-proj/data-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/data-service/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/data-service/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/data-service/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/data-service/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/data-service/transport/dataservice.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/static-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/static-service/clients/data-service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/static-service/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/static-service/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/static-service/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/static-service/static/img/www.GetBg.net_Anime_Parting_anime_characters_Gates_Stein_111256_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-proj/static-service/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little proj/static server/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/little proj/static server/static/html/index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="f89e1de3-440c-4d34-9ddf-b8a914d235de" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,11 +45,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/little-proj/static-service/vendor/github.com/IhorBondartsov/stupid-things/little-proj/data-service" />
+      <recent name="$PROJECT_DIR$/little-proj/static-service/vendor/github.com/IhorBondartsov/stupid-things" />
+      <recent name="$PROJECT_DIR$/little-proj/static-service/vendor/github.com/IhorBondartsov" />
       <recent name="$PROJECT_DIR$/little-proj/data-service" />
       <recent name="$PROJECT_DIR$/little-proj/static-service" />
-      <recent name="$PROJECT_DIR$/basic/initalization/pkg1/cmd" />
-      <recent name="$PROJECT_DIR$/basic/initalization/pkg1" />
-      <recent name="$PROJECT_DIR$/basic/initalization/pkg2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/little-proj/data-service/transport" />
