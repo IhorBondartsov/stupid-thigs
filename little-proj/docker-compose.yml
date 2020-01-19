@@ -1,0 +1,34 @@
+version: '3'
+
+# Define services
+services:
+  # App Service
+  static-service:
+    # Configuration for building the docker image for the service
+#    build:
+#      context: . # Use an image built from the specified dockerfile in the current directory.
+#      dockerfile: static-service/Dockerfile
+    image: stastic/service:latest
+    ports:
+      - "8001:8001" # Forward the exposed port 8080 on the container to port 8080 on the host machine
+    restart: unless-stopped
+    depends_on:
+      - data-service # This service depends on data-service. Start that first.
+    environment: # Pass environment variables to the service
+      DATA_SERVICE_URL: data-service:8002
+    networks: # Networks to join (Services on the same network can communicate with each other using their name)
+      - backend
+
+  data-service:
+#    build:
+#      context: . # Use an image built from the specified dockerfile in the current directory.
+#      dockerfile: data-service/Dockerfile
+    image: data/service:latest
+    ports:
+      - "8002:8002" # Forward the exposed port 8080 on the container to port 8080 on the host machine
+    restart: unless-stopped
+    networks: # Networks to join (Services on the same network can communicate with each other using their name)
+      - backend
+
+networks:
+  backend:
