@@ -5,13 +5,12 @@ type Caller interface {
 }
 
 func NewCaller()Caller{
-	return &caller{}
+	return caller{}
 }
 
 type caller struct {}
 
-func (c *caller) Call() {
-}
+func (c caller) Call() {}
 
 func Call(){}
 
