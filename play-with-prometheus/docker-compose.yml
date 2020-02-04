@@ -1,0 +1,57 @@
+version: '3.2'
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - 9090:9090
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    depends_on:
+      - cadvisor
+  cadvisor:
+    image: google/cadvisor:latest
+    container_name: cadvisor
+    ports:
+      - 8080:8080
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+    depends_on:
+      - redis
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - 6378:6379
+  myapp:
+    build: ./simple connection to prom
+    container_name: myapp
+    ports:
+      - 2112:2112
+  postgres:
+    image: postgres
+    restart: always
+    container_name: postgres
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: 'postgres'
+      POSTGRES_PASSWORD: 'postgres'
+      POSTGRESS_DB: 'postgres'
+  myappdb:
+    build: ./db metrics
+    container_name: myappdb
+    ports:
+      - 3329:3329
+    environment:
+      POSTGRES_USER: 'user'
+      POSTGRES_PASSWORD: 'password'
+      POSTGRESS_DB: 'db_amex01'
+    depends_on:
+      - postgres
+
